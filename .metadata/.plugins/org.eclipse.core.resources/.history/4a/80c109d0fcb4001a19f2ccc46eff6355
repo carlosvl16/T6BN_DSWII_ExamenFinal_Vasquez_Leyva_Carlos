@@ -1,0 +1,28 @@
+package com.cliente.action;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.struts2.convention.annotation.ParentPackage;
+
+import com.cibertec.entidad.Medicamento;
+import com.cibertec.entidad.Televisor;
+
+@ParentPackage("dawi")
+public class TelevisorAction {
+	
+	private Televisor[] listaTelevisores; 
+	private Televisor televisor;
+	
+	//
+	private int stock1,stock2;
+	
+	private String REST_MEDICAMENTO="http://localhost:8085/WS_REST_Servidor_Modelo/rest/medicamento/";
+	
+	
+	private HttpClient httpClient;
+	
+	public MedicamentoAction() {
+		httpClient=HttpClientBuilder.create().build();
+	}
+
+}

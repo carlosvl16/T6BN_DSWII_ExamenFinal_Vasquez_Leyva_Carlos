@@ -1,0 +1,8 @@
+package com.cliente.action;
+
+import org.apache.struts2.convention.annotation.ParentPackage;
+
+@ParentPackage("dawi")
+public class TelevisorAction {
+
+}

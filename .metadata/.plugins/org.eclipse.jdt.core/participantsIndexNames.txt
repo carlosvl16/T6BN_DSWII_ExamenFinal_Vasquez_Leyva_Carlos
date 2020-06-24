@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\User\Desktop\T6BN_Examen_Final_Vásquez_Leyva_Carlos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\303590.index
+\WS_REST_Cliente_Struts_Modelo_FIN\src
+C:\Users\User\Desktop\T6BN_Examen_Final_Vásquez_Leyva_Carlos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1674346147.index
+\WS_REST_Cliente_Struts_Modelo_FIN\src
+C:\Users\User\Desktop\T6BN_Examen_Final_Vásquez_Leyva_Carlos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\216058006.index
+\WS_REST_Servidor_Modelo_FIN\src

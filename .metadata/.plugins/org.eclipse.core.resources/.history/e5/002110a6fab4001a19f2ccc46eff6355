@@ -1,0 +1,7 @@
+package com.cibertec.entidad;
+
+import java.io.Serializable;
+
+public class Televisor implements Serializable{
+
+}

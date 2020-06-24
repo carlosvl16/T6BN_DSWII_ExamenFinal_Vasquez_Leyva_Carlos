@@ -1,0 +1,16 @@
+INDEX VERSION 1.4+C:\Users\User\Desktop\T6BN_Examen_Final_Vásquez_Leyva_Carlos\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1760323608.index
+26551063.index
+655296802.index
+1914885887.index
+838403877.index
+2701159175.index
+3159592105.index
+1070767147.index
+23157456.index
+3101942380.index
+182719215.index
+2844244489.index
+1674346147.index
+77086202.index
+1617698514.index

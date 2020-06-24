@@ -1,0 +1,5 @@
+package com.cliente.action;
+
+public class TelevisorAction {
+
+}

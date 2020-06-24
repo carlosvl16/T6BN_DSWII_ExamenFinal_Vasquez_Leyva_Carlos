@@ -1,0 +1,48 @@
+package com.cibertec.dao;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.util.List;
+
+import com.cibertec.entidad.Televisor;
+import com.cibertec.interfaces.TelevisorDAO;
+
+import utils.MysqlDBConexion;
+
+public class TelevisorDAOlmpl implements TelevisorDAO{
+
+	@Override
+	public int saveTelevisor(Televisor bean) {
+		int estado=-1;
+		Connection cn=null;
+		CallableStatement cstm=null;
+		try {
+			cn=MysqlDBConexion.getConexion();
+			String sql="call sp_saveTelevisor(?,?,?)";
+			cstm=cn.prepareCall(sql);
+			cstm.setString(1,bean.getNombre());
+			cstm.setDouble(2,bean.getPrecio());
+			cstm.setInt(3,bean.getStock());
+			cstm.setString(4, bean.getFecha());
+			estado=cstm.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();	
+		}
+		finally{
+			try {
+				if(cstm!=null) cstm.close();
+				if(cn!=null) cn.close();
+			} catch (Exception e2) {
+				e2.printStackTrace();
+			}
+		}
+		return estado;
+	}
+
+	@Override
+	public List<Televisor> listAllTelevisoresXStock(int s1, int s2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
